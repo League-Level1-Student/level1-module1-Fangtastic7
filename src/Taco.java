@@ -1,12 +1,18 @@
 
 public class Taco {
-	private String meat;
-	private String sauce;
+	private String Meat;
+	private String Sauce;
 	
-	 void getMeat(String meat) {
+	 void getMeat() {
 		return;
 	}
-	void getSauce(String sauce) {
+	void getSauce() {
 		return;
+	}
+	void getMeat(String meat) {
+		meat = Meat;
+	}
+	void getSauce(String sauce) {
+		sauce = Sauce;
 	}
 }
