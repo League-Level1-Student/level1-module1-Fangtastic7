@@ -3,16 +3,32 @@ public class Taco {
 	private String Meat;
 	private String Sauce;
 	
-	 void getMeat() {
-		return;
+	 String getMeat() {
+		 Meat = "Beef";
+		return Meat;
 	}
-	void getSauce() {
-		return;
+	String getSauce() {
+		Sauce = "Salsa";
+		return Sauce;
 	}
-	void getMeat(String meat) {
+	void setMeat(String meat) {
 		meat = Meat;
 	}
-	void getSauce(String sauce) {
+	void setSauce(String sauce) {
 		sauce = Sauce;
+	}
+}
+
+class Person {
+	
+	
+	private String name;
+	public Person(String name) {
+		// TODO Auto-generated constructor stub
+		this.name = name;
+	}
+	public String toString(String name, String superpower) {
+		return name + " has mad " + superpower + " skills.";
+		
 	}
 }

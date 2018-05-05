@@ -9,8 +9,8 @@ public class Duck {
 		this.favoriteFood = favoriteFood;
 		this.cookies = cookies;
 	}
-	Animal favoriteanimal = new Animal();
-	favoriteanimal.Animals ;
+//	Animal favoriteanimal = new Animal();
+//	favoriteanimal.Animals ;
 	
 	
 }
